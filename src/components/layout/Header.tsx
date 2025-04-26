@@ -42,8 +42,9 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-xl">CF</div>
-            <span className="ml-2 font-bold text-xl text-secondary hidden sm:block">CrowdChain</span>
+            {/* <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-xl">CF</div> */}
+            <img src="../../assets/LogoW.webp" alt="Fund-Ify Logo" />
+            <span className="ml-2 font-bold text-xl text-secondary hidden sm:block">Fund-Ify</span>
           </Link>
 
           {/* Desktop Navigation */}
